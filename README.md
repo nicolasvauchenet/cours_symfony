@@ -10,17 +10,17 @@ d'accueil.
 
 ### Contenu du Jour
 
-- Théorie : Présentation et historique de Symfony.
-- Théorie : Politique de releases de Symfony.
-- Théorie : Installation et configuration de Symfony CLI.
-- Théorie : Installation et configuration de Symfony 6 avec Symfony CLI.
+- Présentation et historique de Symfony.
+- Politique de releases de Symfony.
+- Installation et configuration de Symfony CLI.
+- Installation et configuration de Symfony 6 avec Symfony CLI.
 - Mise en pratique : Installer Symfony CLI et créer un nouveau projet Symfony 6 sur son environnement de développement.
-- Théorie : Le Controller.
+- Le Controller.
 - Mise en pratique : Création d'une page d'accueil avec un contrôleur simple (Page d'accueil du blog) avec le bundle
   Maker.
-- Théorie : Les templates Twig.
+- Les templates Twig.
 - Mise en pratique : Utilisation d'un système de templates Twig basique mais complet.
-- Théorie : Les tests fonctionnels.
+- Les tests fonctionnels.
 - Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil.
 
 ## Jour 2 - Entités, Tests Unitaires et Intégration
@@ -33,17 +33,17 @@ persister des données.
 
 ### Contenu du Jour
 
-- Théorie : Introduction à Doctrine et création d'entités.
-- Théorie : Configuration de la base de données.
+- Introduction à Doctrine et création d'entités.
+- Configuration de la base de données.
 - Mise en pratique : Configuration de la base de données et création des Entités (Articles, Catégories) avec le bundle
   Maker.
-- Théorie : Les tests unitaires.
+- Les tests unitaires.
 - Mise en pratique : Écriture de tests unitaires pour les entités.
-- Théorie : les FormTypes et leur intégration dans Twig.
+- les FormTypes et leur intégration dans Twig.
 - Mise en pratique : Création d'un FormType pour la création d'articles et tests fonctionnels associés.
-- Théorie : Validation et persistance des données.
+- Validation et persistance des données.
 - Mise en pratique : Ajout et modification d'article en base de données.
-- Théorie : Tests d'intégration.
+- Tests d'intégration.
 - Mise en pratique : Tests d'intégration pour valider la création et la modification d'articles.
 
 ## Jour 3 - Services et Dépendances
@@ -56,12 +56,12 @@ gérer des événements avec Event Subscribers.
 
 ### Contenu du Jour
 
-- Théorie : Compréhension du concept de services dans Symfony.
-- Théorie : Utilisation de l'injection de dépendances pour gérer les services.
+- Compréhension du concept de services dans Symfony.
+- Utilisation de l'injection de dépendances pour gérer les services.
 - Mise en pratique : Création de services personnalisés (Service de Gestion des uploads).
 - Mise en pratique : Création de services personnalisés (Service de Gestion des Commentaires).
 - Mise en pratique : Écriture de tests unitaires pour les services.
-- Théorie : Gestion des événements avec Event Subscribers.
+- Gestion des événements avec Event Subscribers.
 - Mise en pratique : Gestion des événements avec Event Subscribers (Ajout d'un Article nouvellement créé dans la table
   des Articles mis en avant).
 
@@ -75,16 +75,16 @@ tests fonctionnels pour valider les fonctionnalités, et de comprendre les princ
 
 ### Contenu du Jour
 
-- Théorie : Gestion de l'authentification et des utilisateurs.
+- Gestion de l'authentification et des utilisateurs.
 - Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire).
-- Théorie : Gestion des permissions et de l'accès aux ressources.
+- Gestion des permissions et de l'accès aux ressources.
 - Mise en pratique : Gestion des permissions et de l'accès aux ressources (Gestion des permissions pour les articles).
-- Théorie : Utilisation d'Embedded Formtypes pour des formulaires complexes.
+- Utilisation d'Embedded Formtypes pour des formulaires complexes.
 - Mise en pratique : Utilisation d'Embedded Formtypes pour des formulaires complexes (édition d'articles).
 - Mise en pratique : Écriture de tests fonctionnels pour valider les fonctionnalités (l'authentification).
-- Théorie : Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF).
-- Théorie : Sécurité - protection contre les vulnérabilités (protection contre les attaques XSS).
-- Théorie : Sécurité - protection contre les vulnérabilités (protection contre les attaques par injection SQL).
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF).
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques XSS).
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques par injection SQL).
 - Mise en pratique : Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF, XSS et par
   injection SQL).
 
@@ -98,14 +98,14 @@ erreurs et les logs, et de déployer une application Symfony.
 
 ### Contenu du Jour
 
-- Théorie : tests avancés - tests de performance.
+- tests avancés - tests de performance.
 - Mise en pratique : tests avancés - tests de performance (tests de chargement des pages).
-- Théorie : Application des bonnes pratiques de développement (structure de répertoire, documentation du code, PSR).
+- Application des bonnes pratiques de développement (structure de répertoire, documentation du code, PSR).
 - Mise en pratique : Application des bonnes pratiques de développement (structure de répertoire, documentation du code,
   validation PSR).
-- Théorie : Optimisation des performances.
+- Optimisation des performances.
 - Mise en pratique : Optimisation des performances (mise en cache des vues).
-- Théorie : Gestion des erreurs et des logs.
+- Gestion des erreurs et des logs.
 - Mise en pratique : Gestion des erreurs et des logs (journalisation des actions).
-- Théorie : Déploiement d'une application Symfony.
+- Déploiement d'une application Symfony.
 - Mise en pratique : Déploiement d'une application Symfony (mise en ligne du blog).
