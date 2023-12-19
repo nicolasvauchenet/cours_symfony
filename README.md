@@ -1,14 +1,14 @@
 # Cours Symfony 6
 
-## Jour 1 - Mise en place de Symfony 6 et Tests Fonctionnels
+## 01 - Mise en place de Symfony 6 et Tests Fonctionnels
 
-### Objectif du Jour
+### Objectif
 
 À la fin de cette journée, vous devriez être en mesure de mettre en place un projet Symfony 6 de base, de créer une page
 d'accueil, d'utiliser le système de templates Twig, et de rédiger des tests fonctionnels pour valider votre page
 d'accueil.
 
-### Contenu du Jour
+### Contenu
 
 - Présentation et historique de Symfony.
 - Politique de releases de Symfony.
@@ -23,15 +23,15 @@ d'accueil.
 - Les tests fonctionnels.
 - Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil.
 
-## Jour 2 - Entités, Tests Unitaires et Intégration
+## 02 - Entités, Tests Unitaires et Intégration
 
-### Objectif du Jour
+### Objectif
 
 À la fin de cette journée, vous devriez être en mesure de créer des entités persistées en base de données, d'écrire des
 tests unitaires pour les entités, de créer des formulaires avec des tests fonctionnels associés, et de valider et
 persister des données.
 
-### Contenu du Jour
+### Contenu
 
 - Introduction à Doctrine et création d'entités.
 - Configuration de la base de données.
@@ -46,15 +46,15 @@ persister des données.
 - Tests d'intégration.
 - Mise en pratique : Tests d'intégration pour valider la création et la modification d'articles.
 
-## Jour 3 - Services et Dépendances
+## 03 - Services et Dépendances
 
-### Objectif du Jour
+### Objectif
 
 À la fin de cette journée, vous devriez comprendre le concept de services dans Symfony, savoir utiliser l'injection de
 dépendances pour gérer les services, créer des services personnalisés, écrire des tests unitaires pour les services, et
 gérer des événements avec Event Subscribers.
 
-### Contenu du Jour
+### Contenu
 
 - Compréhension du concept de services dans Symfony.
 - Utilisation de l'injection de dépendances pour gérer les services.
@@ -65,15 +65,15 @@ gérer des événements avec Event Subscribers.
 - Mise en pratique : Gestion des événements avec Event Subscribers (Ajout d'un Article nouvellement créé dans la table
   des Articles mis en avant).
 
-## Jour 4 - Fonctionnalités Avancées et Sécurité
+## 04 - Fonctionnalités Avancées et Sécurité
 
-### Objectif du Jour
+### Objectif
 
 À la fin de cette journée, vous devriez être en mesure de gérer l'authentification et les utilisateurs, de gérer les
 permissions et l'accès aux ressources, d'utiliser les Embedded Formtypes pour des formulaires complexes, d'écrire des
 tests fonctionnels pour valider les fonctionnalités, et de comprendre les principes de sécurité en Symfony.
 
-### Contenu du Jour
+### Contenu
 
 - Gestion de l'authentification et des utilisateurs.
 - Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire).
@@ -88,15 +88,15 @@ tests fonctionnels pour valider les fonctionnalités, et de comprendre les princ
 - Mise en pratique : Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF, XSS et par
   injection SQL).
 
-## Jour 5 - Tests Avancés, Bonnes Pratiques et Déploiement du Projet
+## 05 - Tests Avancés, Bonnes Pratiques et Déploiement du Projet
 
-### Objectif du Jour
+### Objectif
 
 À la fin de cette journée, vous devriez être capable de mettre en œuvre des tests avancés (tests d'intégration, tests de
 performance), d'appliquer les bonnes pratiques de développement Symfony, d'optimiser les performances, de gérer les
 erreurs et les logs, et de déployer une application Symfony.
 
-### Contenu du Jour
+### Contenu
 
 - tests avancés - tests de performance.
 - Mise en pratique : tests avancés - tests de performance (tests de chargement des pages).
