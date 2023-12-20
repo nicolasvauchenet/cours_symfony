@@ -14,13 +14,13 @@ d'accueil.
 - Politique de releases de Symfony
 - Installation et configuration de Symfony CLI
 - Installation et configuration de Symfony 6 avec Symfony CLI
-- Mise en pratique : Installer Symfony CLI et créer un nouveau projet Symfony 6 sur son environnement de développement.
+- Mise en pratique : Installer Symfony CLI et créer un nouveau projet Symfony 6 sur son environnement de développement
 - Le Controller
 - Mise en pratique : Création d'une page d'accueil avec un contrôleur simple (Page d'accueil du blog) avec le bundle
   Maker
 - Les templates Twig
 - Mise en pratique : Utilisation d'un système de templates Twig basique mais complet
-- Les tests fonctionnels.
+- Les tests fonctionnels
 - Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil
 
 ## 02 - Entités, Tests Unitaires et Intégration
@@ -75,7 +75,7 @@ tests fonctionnels pour valider les fonctionnalités, et de comprendre les princ
 
 ### Contenu
 
-- Gestion de l'authentification et des utilisateurs.
+- Gestion de l'authentification et des utilisateurs
 - Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire)
 - Gestion des permissions et de l'accès aux ressources
 - Mise en pratique : Gestion des permissions et de l'accès aux ressources (Gestion des permissions pour les articles)
