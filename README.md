@@ -10,18 +10,18 @@ d'accueil.
 
 ### Contenu
 
-- Présentation et historique de Symfony.
-- Politique de releases de Symfony.
-- Installation et configuration de Symfony CLI.
-- Installation et configuration de Symfony 6 avec Symfony CLI.
+- Présentation et historique de Symfony
+- Politique de releases de Symfony
+- Installation et configuration de Symfony CLI
+- Installation et configuration de Symfony 6 avec Symfony CLI
 - Mise en pratique : Installer Symfony CLI et créer un nouveau projet Symfony 6 sur son environnement de développement.
-- Le Controller.
+- Le Controller
 - Mise en pratique : Création d'une page d'accueil avec un contrôleur simple (Page d'accueil du blog) avec le bundle
-  Maker.
-- Les templates Twig.
-- Mise en pratique : Utilisation d'un système de templates Twig basique mais complet.
+  Maker
+- Les templates Twig
+- Mise en pratique : Utilisation d'un système de templates Twig basique mais complet
 - Les tests fonctionnels.
-- Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil.
+- Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil
 
 ## 02 - Entités, Tests Unitaires et Intégration
 
@@ -33,18 +33,18 @@ persister des données.
 
 ### Contenu
 
-- Introduction à Doctrine et création d'entités.
-- Configuration de la base de données.
+- Introduction à Doctrine et création d'entités
+- Configuration de la base de données
 - Mise en pratique : Configuration de la base de données et création des Entités (Articles, Catégories) avec le bundle
-  Maker.
-- Les tests unitaires.
-- Mise en pratique : Écriture de tests unitaires pour les entités.
-- les FormTypes et leur intégration dans Twig.
-- Mise en pratique : Création d'un FormType pour la création d'articles et tests fonctionnels associés.
-- Validation et persistance des données.
-- Mise en pratique : Ajout et modification d'article en base de données.
-- Tests d'intégration.
-- Mise en pratique : Tests d'intégration pour valider la création et la modification d'articles.
+  Maker
+- Les tests unitaires
+- Mise en pratique : Écriture de tests unitaires pour les entités
+- les FormTypes et leur intégration dans Twig
+- Mise en pratique : Création d'un FormType pour la création d'articles et tests fonctionnels associés
+- Validation et persistance des données
+- Mise en pratique : Ajout et modification d'article en base de données
+- Tests d'intégration
+- Mise en pratique : Tests d'intégration pour valider la création et la modification d'articles
 
 ## 03 - Services et Dépendances
 
@@ -56,14 +56,14 @@ gérer des événements avec Event Subscribers.
 
 ### Contenu
 
-- Compréhension du concept de services dans Symfony.
-- Utilisation de l'injection de dépendances pour gérer les services.
-- Mise en pratique : Création de services personnalisés (Service de Gestion des uploads).
-- Mise en pratique : Création de services personnalisés (Service de Gestion des Commentaires).
-- Mise en pratique : Écriture de tests unitaires pour les services.
-- Gestion des événements avec Event Subscribers.
+- Compréhension du concept de services dans Symfony
+- Utilisation de l'injection de dépendances pour gérer les services
+- Mise en pratique : Création de services personnalisés (Service de Gestion des uploads)
+- Mise en pratique : Création de services personnalisés (Service de Gestion des Commentaires)
+- Mise en pratique : Écriture de tests unitaires pour les services
+- Gestion des événements avec Event Subscribers et Event Listeners
 - Mise en pratique : Gestion des événements avec Event Subscribers (Ajout d'un Article nouvellement créé dans la table
-  des Articles mis en avant).
+  des Articles mis en avant)
 
 ## 04 - Fonctionnalités Avancées et Sécurité
 
@@ -76,17 +76,17 @@ tests fonctionnels pour valider les fonctionnalités, et de comprendre les princ
 ### Contenu
 
 - Gestion de l'authentification et des utilisateurs.
-- Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire).
-- Gestion des permissions et de l'accès aux ressources.
-- Mise en pratique : Gestion des permissions et de l'accès aux ressources (Gestion des permissions pour les articles).
-- Utilisation d'Embedded Formtypes pour des formulaires complexes.
-- Mise en pratique : Utilisation d'Embedded Formtypes pour des formulaires complexes (édition d'articles).
-- Mise en pratique : Écriture de tests fonctionnels pour valider les fonctionnalités (l'authentification).
-- Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF).
-- Sécurité - protection contre les vulnérabilités (protection contre les attaques XSS).
-- Sécurité - protection contre les vulnérabilités (protection contre les attaques par injection SQL).
+- Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire)
+- Gestion des permissions et de l'accès aux ressources
+- Mise en pratique : Gestion des permissions et de l'accès aux ressources (Gestion des permissions pour les articles)
+- Utilisation d'Embedded Formtypes pour des formulaires complexes
+- Mise en pratique : Utilisation d'Embedded Formtypes pour des formulaires complexes (édition d'articles)
+- Mise en pratique : Écriture de tests fonctionnels pour valider les fonctionnalités (l'authentification)
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF)
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques XSS)
+- Sécurité - protection contre les vulnérabilités (protection contre les attaques par injection SQL)
 - Mise en pratique : Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF, XSS et par
-  injection SQL).
+  injection SQL)
 
 ## 05 - Tests Avancés, Bonnes Pratiques et Déploiement du Projet
 
@@ -98,14 +98,15 @@ erreurs et les logs, et de déployer une application Symfony.
 
 ### Contenu
 
-- tests avancés - tests de performance.
-- Mise en pratique : tests avancés - tests de performance (tests de chargement des pages).
-- Application des bonnes pratiques de développement (structure de répertoire, documentation du code, PSR).
+- tests avancés - tests de performance
+- Mise en pratique : tests avancés - tests de performance (tests de chargement des pages)
+- Application des bonnes pratiques de développement (structure de répertoire, documentation du code, PSR)
 - Mise en pratique : Application des bonnes pratiques de développement (structure de répertoire, documentation du code,
-  validation PSR).
-- Optimisation des performances.
-- Mise en pratique : Optimisation des performances (mise en cache des vues).
-- Gestion des erreurs et des logs.
-- Mise en pratique : Gestion des erreurs et des logs (journalisation des actions).
-- Déploiement d'une application Symfony.
-- Mise en pratique : Déploiement d'une application Symfony (mise en ligne du blog).
+  validation PSR)
+- Optimisation des performances
+- Mise en pratique : Optimisation des performances (mise en cache des vues)
+- Gestion des erreurs et des logs
+- Mise en pratique : Gestion des erreurs et des logs (journalisation des actions)
+- Commandes Symfony
+- Déploiement d'une application Symfony
+- Mise en pratique : Déploiement d'une application Symfony (mise en ligne du blog)
