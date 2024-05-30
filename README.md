@@ -1,11 +1,10 @@
-# Cours Symfony 6
+# Cours Symfony
 
 ## 01 - Mise en place de Symfony 6 et Tests Fonctionnels
 
 ### Objectif
 
-À la fin de cette journée, vous devriez être en mesure de mettre en place un projet Symfony 6 de base, de créer une page
-d'accueil, d'utiliser le système de templates Twig, et de rédiger des tests fonctionnels pour valider votre page
+À la fin de cette journée, vous devriez être capable de mettre en place un projet Symfony de base, et de créer une page
 d'accueil.
 
 ### Contenu
@@ -18,12 +17,26 @@ d'accueil.
 - Le Controller
 - Mise en pratique : Création d'une page d'accueil avec un contrôleur simple (Page d'accueil du blog) avec le bundle
   Maker
+
+## 02 - Twig, Asset Mapper et Symfony UX
+
+### Objectif
+
+À la fin de cette journée, vous devriez être capable d'utiliser le système de templates Twig et les outils de Symfony UX
+Project, et de rédiger des tests fonctionnels pour valider votre page d'accueil.
+
+### Contenu
+
 - Les templates Twig
 - Mise en pratique : Utilisation d'un système de templates Twig basique mais complet
+- Symfony UX Project :
+    - Asset Mapper
+    - Stimulus UX
+    - Turbo UX
 - Les tests fonctionnels
 - Mise en pratique : Écriture de tests fonctionnels pour valider la page d'accueil
 
-## 02 - Entités, Tests Unitaires et Intégration
+## 03 - Entités, Tests Unitaires et Intégration
 
 ### Objectif
 
@@ -46,7 +59,7 @@ persister des données.
 - Tests d'intégration
 - Mise en pratique : Tests d'intégration pour valider la création et la modification d'articles
 
-## 03 - Services et Dépendances
+## 04 - Services et Dépendances
 
 ### Objectif
 
@@ -65,13 +78,27 @@ gérer des événements avec Event Subscribers.
 - Mise en pratique : Gestion des événements avec Event Subscribers (Ajout d'un Article nouvellement créé dans la table
   des Articles mis en avant)
 
-## 04 - Fonctionnalités Avancées et Sécurité
+## 05 - Fonctionnalités Avancées
 
 ### Objectif
 
-À la fin de cette journée, vous devriez être en mesure de gérer l'authentification et les utilisateurs, de gérer les
-permissions et l'accès aux ressources, d'utiliser les Embedded Formtypes pour des formulaires complexes, d'écrire des
-tests fonctionnels pour valider les fonctionnalités, et de comprendre les principes de sécurité en Symfony.
+À la fin de cette journée, vous devriez être capable d'utiliser les Embedded Formtypes pour des formulaires complexes,
+d'écrire des tests fonctionnels pour valider les fonctionnalités, et de créer vos propres commandes Symfony.
+
+### Contenu
+
+- Utilisation d'Embedded Formtypes pour des formulaires complexes
+- Mise en pratique : Utilisation d'Embedded Formtypes pour des formulaires complexes (édition d'articles)
+- Mise en pratique : Écriture de tests fonctionnels pour valider les fonctionnalités (les formulaires intégrés)
+- Commandes Symfony
+
+## 06 - Sécurité
+
+### Objectif
+
+À la fin de cette journée, vous devriez être capable de gérer l'authentification et les utilisateurs, de gérer les
+permissions et l'accès aux ressources, d'écrire des tests fonctionnels pour valider les fonctionnalités, et de
+comprendre les principes de sécurité en Symfony.
 
 ### Contenu
 
@@ -79,16 +106,13 @@ tests fonctionnels pour valider les fonctionnalités, et de comprendre les princ
 - Mise en pratique : Gestion de l'authentification et des utilisateurs (Authentification par formulaire)
 - Gestion des permissions et de l'accès aux ressources
 - Mise en pratique : Gestion des permissions et de l'accès aux ressources (Gestion des permissions pour les articles)
-- Utilisation d'Embedded Formtypes pour des formulaires complexes
-- Mise en pratique : Utilisation d'Embedded Formtypes pour des formulaires complexes (édition d'articles)
-- Mise en pratique : Écriture de tests fonctionnels pour valider les fonctionnalités (l'authentification)
 - Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF)
 - Sécurité - protection contre les vulnérabilités (protection contre les attaques XSS)
 - Sécurité - protection contre les vulnérabilités (protection contre les attaques par injection SQL)
 - Mise en pratique : Sécurité - protection contre les vulnérabilités (protection contre les attaques CSRF, XSS et par
   injection SQL)
 
-## 05 - Tests Avancés, Bonnes Pratiques et Déploiement du Projet
+## 07 - Tests Avancés, Bonnes Pratiques et Déploiement du Projet
 
 ### Objectif
 
@@ -107,6 +131,5 @@ erreurs et les logs, et de déployer une application Symfony.
 - Mise en pratique : Optimisation des performances (mise en cache des vues)
 - Gestion des erreurs et des logs
 - Mise en pratique : Gestion des erreurs et des logs (journalisation des actions)
-- Commandes Symfony
 - Déploiement d'une application Symfony
 - Mise en pratique : Déploiement d'une application Symfony (mise en ligne du blog)
